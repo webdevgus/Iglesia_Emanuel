@@ -2385,7 +2385,7 @@ input, select, textarea {
 
 		.iframe-container{
 			position: relative;
-			width: 100%;
+			width: 90%;
 			padding-bottom: 56.25%; 
 			height: 0;
 		  }
@@ -2393,7 +2393,7 @@ input, select, textarea {
 			position: absolute;
 			top:0;
 			left: 0;
-			width: 100%;
+			width: 90%;
 			height: 100%;
 		  }
 
@@ -2432,11 +2432,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 75%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 75%;
 			}
 
 		.image.main {
