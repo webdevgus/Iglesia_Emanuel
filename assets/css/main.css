@@ -1789,7 +1789,13 @@ input, select, textarea {
 		}
 
 /* Box */
-
+	
+	.facebookgallery{
+		display: flex;
+		width: 100%;
+		align-items: center;
+		margin: 10px;
+	}
 	.box {
 		border: solid 1px;
 		margin-bottom: 2em;
