@@ -1951,6 +1951,7 @@ input, select, textarea {
 			.button.primary:active {
 				background-color: #373737;
 			}
+/*Gallery*/
 			.header-gallery {
 				text-align: center;
 				padding: 32px;
