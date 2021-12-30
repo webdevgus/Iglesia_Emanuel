@@ -2487,7 +2487,7 @@ input, select, textarea {
 		}
 
 			.image.fit.main img {
-				width: 20%;
+				width: 100%;
 			}
 
 		.image.main {
