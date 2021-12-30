@@ -2490,29 +2490,6 @@ input, select, textarea {
 				width: 20%;
 			}
 
-			@media screen and (max-width: 480px){
-				.image.fit.main img {
-					width: 100%;
-				}
-			}
-
-			@media screen and (max-width: 736px) {
-				.image.fit.main img {
-					width: 100%;
-				}
-			}
-
-			@media screen and (max-width: 1280px){
-				.image.fit.main img {
-					width: 100%;
-				}
-			}
-			@media screen and (max-width: 1680px){
-				.image.fit.main img {
-					width: 100%;
-				}
-			}
-
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
