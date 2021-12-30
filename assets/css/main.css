@@ -2486,8 +2486,31 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
+			.image.fit.main img {
+				width: 20%;
+			}
+
+			@media screen and (max-width: 480px){
+				.image.fit.main img {
+					width: 100%;
+				}
+			}
+
+			@media screen and (max-width: 736px) {
+				.image.fit.main img {
+					width: 100%;
+				}
+			}
+
+			@media screen and (max-width: 1280px){
+				.image.fit.main img {
+					width: 100%;
+				}
+			}
+			@media screen and (max-width: 1680px){
+				.image.fit.main img {
+					width: 100%;
+				}
 			}
 
 		.image.main {
@@ -3666,13 +3689,20 @@ ul.faces {
 			padding-bottom: 0.75em;
 		}
 
+		.spotlight h3 {
+			font-size: 2em;
+			font-weight: 700;
+			margin: 0 0 0.7em 0;
+			padding-bottom: 0.75em;
+		}
+
 		.spotlight .image {
-			width: calc(66.6666666% - 2.5em);
+			width: 100%
 			margin: 0 0 2em 0;
 		}
 
 			.spotlight .image img {
-				width: 100%;
+				width: 50%;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3680,9 +3710,12 @@ ul.faces {
 			.spotlight h2 {
 				font-size: 1.25em;
 			}
+			.spotlight h3 {
+				font-size: 1em;
+			}
 
-			.spotlight .image {
-				width: calc(66.6666666% - 1.25em);
+			.spotlight .image img{
+				width: 100%;
 			}
 
 		}
@@ -3697,7 +3730,7 @@ ul.faces {
 					width: 100%;
 				}
 
-				.spotlight .image {
+				.spotlight .image img{
 					width: 100%;
 					margin: 0 0 2em 0;
 				}
@@ -3803,7 +3836,7 @@ ul.faces {
 		.wrapper > .inner {
 			margin: 0 auto;
 			max-width: 90em;
-			width: 90%;
+			width: 100%;
 		}
 
 		.wrapper + .wrapper {
